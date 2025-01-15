@@ -1,0 +1,67 @@
+
+.bg-gradient-primary {
+  background: linear-gradient(to right, #181716, #0f0f0e);
+}
+
+.bg-gradient-custom {
+  background: linear-gradient(to bottom right, #423253, #1d478f);
+}
+
+/* Hover scale effect for buttons */
+.hover-scale {
+  transition: transform 0.2s ease-in-out;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+/* Custom slider */
+.slider-custom {
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 8px;
+  border-radius: 5px;
+  background: #ddd;
+  outline: none;
+  transition: background 0.3s ease;
+}
+
+.slider-custom:hover {
+  background: #362d25;
+}
+
+.slider-custom::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #2575fc;
+  cursor: pointer;
+}
+
+.slider-custom::-webkit-slider-thumb:hover {
+  background: #141413;
+}
+
+/* Card styles */
+.card {
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], button {
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="text"]:focus, button:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
