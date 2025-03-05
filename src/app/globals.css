@@ -7,7 +7,6 @@
   border-radius: 15px;
 }
 
-/* Hover scale effect for buttons */
 .hover-scale {
   transition: transform 0.2s ease-in-out;
 }
@@ -16,7 +15,6 @@
   transform: scale(1.05);
 }
 
-/* Custom slider */
 .slider-custom {
   width: 100%;
   -webkit-appearance: none;
@@ -46,7 +44,6 @@
   background: #141413;
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
   .card {
     width: 90%;
